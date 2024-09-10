@@ -1,8 +1,10 @@
+let mixedVar: string | number = 'dasha';
 
-
-function add(num1, num2) {
-  return num1 + num2;
+enum EnabledStatus {
+  ENABLE = "enable",
+  DISABLE = "disable",
 }
 
-console.log(add(1, 2));
-console.log(add(1, 7));
+let status = EnabledStatus.ENABLE;
+console.log(status);
+console.log(mixedVar);
