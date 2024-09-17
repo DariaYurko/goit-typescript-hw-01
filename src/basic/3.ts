@@ -9,13 +9,8 @@ let mixedVar: string | number;
 
 
 /**
- * status can have literal type Enable or Disable
+ * status can have literal type enable or disable
  */
-enum EnabledStatus {
-  Enable = "enable",
-  Disable = "disable",
-}
+let status: "enable" | "disable";
+// console.log((status = "enable"));
 
-let status = EnabledStatus;
-console.log(status.Enable);
-console.log(status.Disable);
